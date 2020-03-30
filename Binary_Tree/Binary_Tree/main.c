@@ -29,7 +29,7 @@ Node * InitNode(int data, Node * leftchild, Node * rightchild){
 
 void preorder(Node * root){
     if(root){
-        printf("")
+        printf("")gdgdsfds
     }
     
 }
