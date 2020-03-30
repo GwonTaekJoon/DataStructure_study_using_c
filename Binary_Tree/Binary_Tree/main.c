@@ -27,7 +27,9 @@ Node * InitNode(int data, Node * leftchild, Node * rightchild){
     
 }
 
-void preorder()
+void preorder(){
+    
+}
 
 int main(int argc, const char * argv[]) {
     // insert code here...
