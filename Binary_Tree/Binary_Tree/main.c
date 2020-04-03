@@ -9,10 +9,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct{
+typedef struct _Node{
     int data;
-    struct Node * leftchild;
-    struct Node * rightchild;
+    struct _Node * leftchild;
+    struct _Node * rightchild;
     
 }Node;
 
@@ -28,12 +28,11 @@ Node * InitNode(int data, Node * leftchild, Node * rightchild){
 }
 
 void preorder(Node * root){
-    if(root){
-        printf("")gdgdsfdssdfd
-    }
+    printf("%d",root -> data);
+    preorder(root -> leftchild);
+    preorder(root -> rightchild);
     
 }
-
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Hello, World!\n");
