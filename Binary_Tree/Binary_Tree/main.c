@@ -41,7 +41,7 @@ void Inorder(Node * root){ //중위순회
     }
 }
 
-void Postorder(Node * root){
+void Postorder(Node * root){ //후위순회
     if(root){
         Postorder(root -> leftchild);
         Postorder(root -> rightchild);
@@ -67,6 +67,6 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 
-/*          30
-    17          48
-5      23    37     50*/
+/*           30
+         17       48
+      5    23  37    50*/
